@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestSettings name="TestSettings1" id="a97331c1-68cd-4c44-9ff4-a2e7fde36335" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Description>這些是本機測試回合的預設測試設定。</Description>
+  <Deployment enabled="false" />
+  <NamingScheme baseName="Results" appendTimeStamp="false" useDefault="false" />
+  <Execution>
+    <TestTypeSpecific>
+      <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+        <AssemblyResolution>
+          <TestDirectory useLoadContext="true" />
+        </AssemblyResolution>
+      </UnitTestRunConfig>
+    </TestTypeSpecific>
+    <AgentRule name="Execution Agents">
+    </AgentRule>
+  </Execution>
+  <Properties>
+    <Property name="TestSettingsUIType" value="UnitTest" />
+  </Properties>
+</TestSettings>
